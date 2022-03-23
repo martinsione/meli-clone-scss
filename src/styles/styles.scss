@@ -2,16 +2,25 @@
 @import "./base/base";
 @import "./base/settings";
 
+// Pages
+@import "./pages/home";
+@import "./pages/homeCome";
+
 // UI
-@import "./components/homeCome";
 @import "./components/paymentMethodsInfo";
 @import "./components/nav";
 @import "./components/footer";
 
 // Cards
-@import "./components/categoriesCardGallery";
 @import "./components/categoryCard";
 @import "./components/gallery";
-@import "./components/homeGallery";
 @import "./components/itemCard";
 @import "./components/storeCard";
+
+// Cards Galleries
+@import "./components/homeGallery";
+@import "./components/categoriesCardGallery";
+@import "./components/storesCardGallery";
+
+// Carrousel
+@import "./components/carrousel";
