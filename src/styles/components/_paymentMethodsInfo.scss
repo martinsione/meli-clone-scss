@@ -1,0 +1,37 @@
+.payment-methods-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: max-content;
+	margin: 40px auto;
+	padding-right: 15px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+		Arial, sans-serif;
+}
+
+.payment-methods-info > li {
+	display: flex;
+	align-items: center;
+	height: 90px;
+	padding: 0 10px;
+}
+
+.payment-methods-info > li > img {
+	height: 48px;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+.payment-methods-info > li > div > a {
+	font-size: 13px;
+	color: #3483fa;
+	cursor: pointer;
+}
+
+.payment-methods-info > li > div > a:hover {
+	color: #1259c3;
+}

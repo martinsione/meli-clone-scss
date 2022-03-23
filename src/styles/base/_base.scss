@@ -1,0 +1,40 @@
+body {
+	min-height: 100vh;
+	background-color: #ebebeb;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+#root {
+	min-height: 100vh;
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(206, 203, 203, 0.761);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: rgba(150, 150, 150, 0.761);
+}
+
+.hover-shadow-1:hover {
+	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2),
+		0px -1px 0px 1px rgba(0, 0, 0, 0.2) inset;
+}

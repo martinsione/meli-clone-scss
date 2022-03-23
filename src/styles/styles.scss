@@ -1,0 +1,17 @@
+// Base
+@import "./base/base";
+@import "./base/settings";
+
+// UI
+@import "./components/homeCome";
+@import "./components/paymentMethodsInfo";
+@import "./components/nav";
+@import "./components/footer";
+
+// Cards
+@import "./components/categoriesCardGallery";
+@import "./components/categoryCard";
+@import "./components/gallery";
+@import "./components/homeGallery";
+@import "./components/itemCard";
+@import "./components/storeCard";

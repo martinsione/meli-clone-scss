@@ -1,0 +1,130 @@
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 20;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff159;
+}
+
+nav > .nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+}
+
+nav > .nav-container > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+		Roboto, Arial, sans-serif;
+}
+
+.nav-container > div > ul {
+	display: flex;
+	align-items: baseline;
+	padding: 0;
+	font-size: 14px;
+}
+.nav-container > div > ul > * {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.nav-container > .nav-start {
+	color: rgba(51, 51, 51, 0.6);
+}
+
+.nav-start > .location {
+	display: flex;
+	position: relative;
+	top: 6px;
+	padding: 6px;
+	margin-bottom: 10px;
+	width: min-content;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.nav-start > .location:hover {
+	border: 1px solid rgba(145, 145, 145, 0.323);
+}
+
+.location > .first-line {
+	position: absolute;
+	left: 28px;
+	top: 2px;
+	font-size: 12px;
+}
+
+.location > .second-line {
+	position: relative;
+	top: 10px;
+	font-size: 13px;
+	color: rgb(51, 51, 51);
+}
+
+.nav-container > .nav-mid {
+	margin-left: 40px;
+	margin-right: 20px;
+	width: 100%;
+	max-width: 600px;
+}
+
+.nav-mid > .search-menu > li {
+	color: rgba(51, 51, 51, 0.6);
+	padding: 10px 0;
+}
+
+.categories {
+	padding-right: 5px;
+}
+
+.categories > .nav-cat-arrow {
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	left: 3px;
+	width: 7px;
+	height: 7px;
+	border-left: 2px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+	transform: rotate(-45deg);
+}
+
+.nav-mid > .search-menu > li:not(:last-child),
+.nav-end > .user-menu > li:not(:last-child) {
+	margin-right: 18px;
+	font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+		Roboto, Arial, sans-serif;
+}
+
+.nav-end > .user-menu > li:last-child {
+	position: relative;
+	top: 3px;
+}
+
+.nav-container > .nav-end {
+	margin-left: auto;
+}
+
+.nav-end > .user-menu {
+	justify-content: end;
+	color: rgb(51, 51, 51);
+}
+
+.nav-end > img {
+	height: 39px;
+}
+.user-menu > li {
+	padding: 10px 0;
+}
