@@ -1,9 +1,9 @@
 import React from "react"
 
-import creditCardIcon from "../../assets/svgs/credit-card.svg"
-import debitCardIcon from "../../assets/svgs/debit-card.svg"
-import paymentAgreementIcon from "../../assets/svgs/payment-agreement.svg"
-import viewMoreIcon from "../../assets/svgs/view-more.svg"
+import creditCardIcon from "../assets/svgs/credit-card.svg"
+import debitCardIcon from "../assets/svgs/debit-card.svg"
+import paymentAgreementIcon from "../assets/svgs/payment-agreement.svg"
+import viewMoreIcon from "../assets/svgs/view-more.svg"
 
 export const PaymentMethodsInfo = () => {
 	return (
