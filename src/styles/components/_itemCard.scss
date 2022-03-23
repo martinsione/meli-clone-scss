@@ -3,8 +3,8 @@
   width: 244px;
   height: max-content;
   background-color: #fff;
-  border-radius: 5px;
   color: #333;
+  border-radius: 0 0 5px 5px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -42,6 +42,11 @@
   height: 244px;
   width: 244px;
   border-bottom: 1px solid #eaeaea;
+}
+
+.item-card-img > img {
+  height: 100%;
+  width: calc(100% - 2px);
 }
 
 .item-card-description {

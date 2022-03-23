@@ -1,36 +1,36 @@
 .gallery-ctn {
-	max-width: 1100px;
-	height: 500px;
-	margin: 0 auto;
-	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
-		Arial, sans-serif;
+  max-width: 1100px;
+  height: 500px;
+  margin: 50px auto;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif;
 }
 
 .gallery-items-ctn {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .gallery-item-next {
-	display: none;
-	position: absolute;
-	top: 145px;
-	right: 0;
-	transform: translate(50%, -50%);
-	justify-content: center;
-	align-items: center;
-	height: 64px;
-	width: 64px;
-	border-radius: 50%;
-	border: none;
-	background-color: #fff;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-	font-size: 20px;
-	color: #3d88fa;
-	cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 145px;
+  right: 0;
+  transform: translate(50%, -50%);
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: #3d88fa;
+  cursor: pointer;
 }
 
 .gallery-items-ctn:hover > button {
-	display: flex;
+  display: flex;
 }

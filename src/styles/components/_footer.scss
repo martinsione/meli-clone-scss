@@ -9,6 +9,7 @@ footer {
   text-align: center;
   background-color: #ebebeb;
   border-bottom: 1px solid #e6e6e6;
+  user-select: none;
 }
 .footer__more-info > p > span {
   display: inline-block;
@@ -21,12 +22,24 @@ footer {
   font-size: 13px;
   color: #666666;
 }
+.footer__arrow {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  height: 10px;
+  transform: rotate(90deg);
+  transition: all 0.5s linear;
+}
 
+.footer__arrow.open {
+  transform: rotate(-90deg);
+}
 .footer__hidden-section-ctn {
   display: flex;
   justify-content: center;
+  overflow: hidden;
   border-bottom: 1px solid #e6e6e6;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .footer__hidden-section {
@@ -76,4 +89,12 @@ footer {
 
 body {
   background-color: #fff;
+}
+
+.footer__hidden-section-ctn.close {
+  height: 0px;
+}
+
+.footer__hidden-section-ctn.open {
+  height: 241px;
 }
