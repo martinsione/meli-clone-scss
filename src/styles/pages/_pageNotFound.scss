@@ -1,0 +1,27 @@
+.page-not-found {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
+  height: 100%;
+  font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+    Roboto, Arial, sans-serif;
+  img {
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  p {
+    color: $SkyblueColor;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      color: $BlueSecondaryColor;
+    }
+  }
+}

@@ -6,6 +6,7 @@
 @import "./pages/home";
 @import "./pages/root";
 @import "./pages/store";
+@import "./pages/pageNotFound";
 
 // UI
 @import "./components/paymentMethodsInfo";
@@ -15,15 +16,17 @@
 @import "./components/shoppingInfo";
 
 // Cards
-@import "./components/categoryCard";
-@import "./components/gallery";
-@import "./components/itemCard";
-@import "./components/storeCard";
+@import "./components/cards/categoryCard";
+@import "./base/gallery";
+@import "./components/cards/itemCard";
+@import "./components/cards/storeCard";
+@import "./components/cards/storeCategoryCard";
 
 // Cards Galleries
-@import "./components/homeGallery";
-@import "./components/categoriesCardGallery";
-@import "./components/storesCardGallery";
+@import "./components/cards-galleries/homeGallery";
+@import "./components/cards-galleries/categoriesCardGallery";
+@import "./components/cards-galleries/storesCardGallery";
+@import "./components/cards-galleries/storeCategoriesCardGallery";
 
 // Carrousel
 @import "./components/carrousel";
