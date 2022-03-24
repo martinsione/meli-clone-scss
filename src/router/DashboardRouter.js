@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom"
+import { useLayoutEffect } from "react"
+import { Route, Routes, useLocation } from "react-router-dom"
 import { Footer } from "../components/Footer"
 import { Nav } from "../components/nav/Nav"
 import { HomePage } from "../pages/HomePage"
@@ -6,6 +7,11 @@ import { PageNotFound } from "../pages/PageNotFound"
 import { StorePage } from "../pages/StorePage"
 
 export const DashboardRouter = () => {
+  const location = useLocation()
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return (
     <>
       <Nav />
