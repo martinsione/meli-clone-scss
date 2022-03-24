@@ -8,9 +8,7 @@ import { useGetHomeInfo } from "../hooks/useGetHomeInfo"
 
 import bannerImg from "../assets/images/banners/banner1.jpg"
 
-export const HomePage = ({ country }) => {
-  const lastSearch = localStorage.getItem("lastSearch")
-
+export const HomePage = () => {
   const { stores, sliderImages, products, homeCategories } = useGetHomeInfo()
 
   return (
@@ -19,9 +17,7 @@ export const HomePage = ({ country }) => {
         <Carrousel {...sliderImages} />
         <div className="home__content">
           <PaymentMethodsInfo />
-          {lastSearch && (
-            <HomeGallery title="Basado en tu última busqueda" {...products} />
-          )}
+          <HomeGallery title="Basado en tu última busqueda" {...products} />
           <HomeGallery title="Ofertas" {...products} />
           <img
             className="home__banner"
