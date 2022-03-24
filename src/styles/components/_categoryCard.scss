@@ -10,6 +10,9 @@
 	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
 		Arial, sans-serif;
 	cursor: pointer;
+	&:hover {
+		box-shadow: 0px 6px 20px -1px #00000030;
+	}
 }
 
 .category-card > img {

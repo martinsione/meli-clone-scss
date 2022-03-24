@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 export const StoreCard = ({ logoUrl, name, bannerUrl, productsUrls }) => {
 	return (
-		<div className="store-card-ctn hover-shadow-1">
+		<Link to="/store/samsung" className="store-card-ctn hover-shadow-1">
 			<img className="store-card-banner" alt="store banner" src={bannerUrl} />
 			<div className="store-card-info">
 				<img className="store-card-logo" alt="store logo" src={logoUrl} />
@@ -12,6 +14,6 @@ export const StoreCard = ({ logoUrl, name, bannerUrl, productsUrls }) => {
 				</div>
 				<p className="store-card-link">ver tienda</p>
 			</div>
-		</div>
+		</Link>
 	)
 }

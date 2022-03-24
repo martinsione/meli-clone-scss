@@ -1,103 +1,106 @@
 .item-card {
-  position: relative;
-  width: 244px;
-  height: max-content;
-  background-color: #fff;
-  color: #333;
-  border-radius: 0 0 5px 5px;
-  text-decoration: none;
-  cursor: pointer;
+	position: relative;
+	width: 244px;
+	height: max-content;
+	background-color: #fff;
+	color: #333;
+	border-radius: 0 0 5px 5px;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		box-shadow: 0px 6px 20px -1px #00000030;
+	}
 }
 
 .item-card-img > .item-heart-icon {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .item-heart-icon > svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 16px;
-  fill: #3483fa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 16px;
+	fill: #3483fa;
 }
 
 .item-heart-icon:hover > svg {
-  fill: #1259c3;
+	fill: #1259c3;
 }
 
 .item-card-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 244px;
-  width: 244px;
-  border-bottom: 1px solid #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 244px;
+	width: 244px;
+	border-bottom: 1px solid #eaeaea;
 }
 
 .item-card-img > img {
-  height: 100%;
-  width: calc(100% - 2px);
+	height: 100%;
+	width: calc(100% - 2px);
 }
 
 .item-card-description {
-  padding: 15px 20px;
-  padding-bottom: 15px;
+	padding: 15px 20px;
+	padding-bottom: 15px;
 }
 
 .item-price-without-discount {
-  display: none;
-  text-decoration: line-through;
-  font-size: 14px;
-  font-weight: 300;
-  color: rgb(153, 153, 153);
+	display: none;
+	text-decoration: line-through;
+	font-size: 14px;
+	font-weight: 300;
+	color: rgb(153, 153, 153);
 }
 
 .item-price {
-  display: flex;
-  align-items: center;
-  font-size: 24px;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
 }
 
 .item-discount {
-  margin-left: 5px;
+	margin-left: 5px;
 }
 .item-price > .item-discount,
 .item-free-shipping {
-  font-size: 14px;
-  color: #00a650;
+	font-size: 14px;
+	color: #00a650;
 }
 .item-free-shipping {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .item-installments {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .item-installments,
 .item-free-shipping {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 .item-title {
-  display: none;
-  font-size: 14px;
-  color: #666;
+	display: none;
+	font-size: 14px;
+	color: #666;
 }
 
 .item-card:hover > .item-card-description > .item-price-without-discount,
 .item-card:hover > .item-card-description > .item-title {
-  display: block;
+	display: block;
 }
 .item-card:hover > .item-card-img > .item-heart-icon {
-  display: flex;
+	display: flex;
 }

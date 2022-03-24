@@ -1,6 +1,6 @@
 export const CategoryCard = ({ title, firstLine, secondLine, imageUrl }) => {
 	return (
-		<div className="category-card hover-shadow-1">
+		<div className="category-card">
 			<div>
 				<p className="category-card-title">{title}</p>
 				<p className="category-card-text-line">{firstLine}</p>

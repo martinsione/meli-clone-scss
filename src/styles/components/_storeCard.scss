@@ -11,6 +11,10 @@
 	font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	cursor: pointer;
+	text-decoration: none;
+	&:hover {
+		box-shadow: 0px 6px 20px -1px #00000030;
+	}
 }
 
 .store-card-banner {
@@ -28,7 +32,7 @@
 	height: 80px;
 	width: 80px;
 	border-radius: 5px;
-	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 10%);
+	box-shadow: 0 2px 15px 0 #00000033;
 }
 
 .store-card-name {

@@ -1,0 +1,51 @@
+.shopping-info__ctn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+.shopping-info__section > img {
+	display: block;
+	margin: auto;
+}
+
+.shopping-info__section > h2,
+.shopping-info__section > p,
+.shopping-info__section > a {
+	text-align: center;
+	font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+		Roboto, Arial, sans-serif;
+}
+
+.shopping-info__section > h2 {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #4b4b4b;
+}
+
+.shopping-info__section > p {
+	margin-top: 10px;
+	font-size: 15px;
+	max-width: 300px;
+	color: #999999;
+}
+
+.shopping-info__section > a {
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	font-size: 14px;
+	text-decoration: none;
+	&:hover {
+		color: #1259c3;
+	}
+	color: #3483fa;
+}
+
+.shopping-info__divisor {
+	height: 60px;
+	width: 1px;
+	background-color: #999999;
+	margin: 0 30px;
+}

@@ -4,12 +4,15 @@
 
 // Pages
 @import "./pages/home";
-@import "./pages/homeCome";
+@import "./pages/root";
+@import "./pages/store";
 
 // UI
 @import "./components/paymentMethodsInfo";
 @import "./components/nav";
+@import "./components/searchInput";
 @import "./components/footer";
+@import "./components/shoppingInfo";
 
 // Cards
 @import "./components/categoryCard";
